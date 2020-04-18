@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #1c1c1c;
+  min-height: 100%;
+}
+
+div#app {
+  width: 60%;
+  height: auto;
+  margin: auto;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div#app h1 {
+  margin: 12px;
+  width: 300px;
+  text-align: center;
+  padding-bottom: 16px;
+  opacity: 0.8;
+  border-bottom: 2px solid #1e90ff;
+}
+
+div#app ul {
+  width: 300px;
+  height: auto;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+div#app input {
+  width: 300px;
+  height: 40px;
+  margin: auto;
+  margin-bottom: 18px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(230, 230, 230);
+  padding: 12px;
+  font-size: 16px;
+}
+
+div#app button {
+  width: 300px;
+  height: 40px;
+  margin: auto;
+  border: none;
+  border-radius: 8px;
+  background-color: #1e90ff;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  opacity: 0.5;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+div#app button:hover {
+  opacity: 1;
+}
+
+div#app ul li a img {
+  width: 18px;
+  opacity: 0.5;
+}
+
+div#app ul li a img:hover {
+  opacity: 1;
+}
+
+div#app ul li {
+  width: 100%;
+  display: flex;
+  margin: 6px;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #4d4c4c;
+}
+
+div#div-link {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4d4c4c;
+  opacity: 0.5;
+}
+
+a.link-icon {
+  text-decoration: none;
+  color: #4d4c4c;
+  padding-left: 2px;
+  padding-right: 2px;
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+a.link-icon:hover {
+  opacity: 1;
+}
+
+footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1c1c1c;
+  opacity: 0.5;
+}
+footer a {
+  margin-left: 2px;
+  color: #1c1c1c;
+  text-decoration: none;
+}
